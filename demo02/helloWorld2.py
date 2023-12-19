@@ -23,3 +23,22 @@ with tf.Session() as session:
 
 # // close the session
 session.close()
+
+# // create a session and run the model
+with tf.Session() as session:
+    session.run(model)
+    session.run(product.assign(tf.divide(x, y)))
+    print(session.run(product))
+
+# // close the session
+session.close()
+
+# retest
+# // create a session and run the model
+with tf.Session() as session:
+    session.run(model)
+    session.run(product.assign(tf.multiply(x, y)))
+    print(session.run(product))
+
+# // close the session
+session.close()
