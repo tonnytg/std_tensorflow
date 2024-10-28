@@ -9,8 +9,7 @@ df = pd.DataFrame(data)
 print(df)
 
 #
-df = pd.read_csv('file_name.csv',
-			usecols=[1, 2, 3])
+df = pd.read_csv('file_name.csv', sep=";", usecols=[1, 2])
 print(df.head(10))
 
 df = pd.DataFrame({'Yes': [50, 21], 'No': [131, 2]})

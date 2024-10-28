@@ -1,5 +1,5 @@
-colA;colB;colC
-1;0;a
-0;0;b
-1;0;c
-1;0;d
+colA;colB;colC;colD
+LinA;1;0;a
+LinB;0;0;b
+LinC;1;0;c
+LinD;1;0;d
